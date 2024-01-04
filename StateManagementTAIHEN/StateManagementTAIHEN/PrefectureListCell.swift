@@ -8,7 +8,9 @@ struct PrefectureListCell: View {
             Text(prefecture.name)
             Spacer()
             Button(
-                action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/,
+                action: {
+                    prefecture.isFavorite.toggle()
+                },
                 label: {
                     prefecture.isFavorite
                     ? Image(systemName: "heart.fill")
