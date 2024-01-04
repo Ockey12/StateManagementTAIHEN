@@ -14,11 +14,16 @@ struct PrefectureView: View {
                     prefecture.isFavorite.toggle()
                 },
                 label: {
-                    prefecture.isFavorite
-                    ? Image(systemName: "heart.fill")
-                        .font(.largeTitle)
-                    : Image(systemName: "heart")
-                        .font(.largeTitle)
+                    if prefecture.isFavorite {
+                        Image(systemName: "heart.fill")
+                            .font(.largeTitle)
+                            .foregroundStyle(.pink)
+                    } else {
+                        Image(systemName: "heart.fill")
+                            .font(.largeTitle)
+                            .foregroundStyle(.gray)
+                            .opacity(0.3)
+                    }
                 }
             )
             Spacer()

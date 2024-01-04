@@ -1,6 +1,6 @@
 import Foundation
 
-struct Prefecture: Identifiable {
+struct Prefecture: Identifiable, Hashable {
     let id = UUID()
     let name: String
     var isFavorite = false
