@@ -2,7 +2,7 @@ import Foundation
 
 @Observable
 final class PrefectureViewModel {
-    private(set) var prefectures = [Prefecture]()
+    var prefectures = [Prefecture]()
 
     init() {
         for name in Prefecture.prefectures {

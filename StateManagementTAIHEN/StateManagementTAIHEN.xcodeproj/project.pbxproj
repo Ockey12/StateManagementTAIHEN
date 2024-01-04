@@ -17,6 +17,7 @@
 		AC274D082B46F5A900353B24 /* Prefecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC274D072B46F5A900353B24 /* Prefecture.swift */; };
 		AC274D0A2B46F75400353B24 /* PrefectureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC274D092B46F75400353B24 /* PrefectureViewModel.swift */; };
 		AC274D0C2B46FB2800353B24 /* PrefecturesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC274D0B2B46FB2800353B24 /* PrefecturesListView.swift */; };
+		AC274D0E2B46FE3700353B24 /* PrefectureListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC274D0D2B46FE3700353B24 /* PrefectureListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		AC274D072B46F5A900353B24 /* Prefecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefecture.swift; sourceTree = "<group>"; };
 		AC274D092B46F75400353B24 /* PrefectureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefectureViewModel.swift; sourceTree = "<group>"; };
 		AC274D0B2B46FB2800353B24 /* PrefecturesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefecturesListView.swift; sourceTree = "<group>"; };
+		AC274D0D2B46FE3700353B24 /* PrefectureListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefectureListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				AC274D072B46F5A900353B24 /* Prefecture.swift */,
 				AC274D092B46F75400353B24 /* PrefectureViewModel.swift */,
 				AC274D0B2B46FB2800353B24 /* PrefecturesListView.swift */,
+				AC274D0D2B46FE3700353B24 /* PrefectureListCell.swift */,
 				AC274CE12B46F24600353B24 /* Assets.xcassets */,
 				AC274CE32B46F24600353B24 /* Preview Content */,
 			);
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC274D0E2B46FE3700353B24 /* PrefectureListCell.swift in Sources */,
 				AC274D082B46F5A900353B24 /* Prefecture.swift in Sources */,
 				AC274D0A2B46F75400353B24 /* PrefectureViewModel.swift in Sources */,
 				AC274CE02B46F24100353B24 /* ContentView.swift in Sources */,

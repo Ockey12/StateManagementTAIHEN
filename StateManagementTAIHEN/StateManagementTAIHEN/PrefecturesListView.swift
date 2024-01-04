@@ -5,8 +5,8 @@ struct PrefecturesListView: View {
 
     var body: some View {
         List {
-            ForEach(viewModel.prefectures, id: \.id) { prefecture in
-                Text(prefecture.name)
+            ForEach($viewModel.prefectures) { $prefecture in
+                PrefectureListCell(prefecture: $prefecture)
             }
         }
     }
