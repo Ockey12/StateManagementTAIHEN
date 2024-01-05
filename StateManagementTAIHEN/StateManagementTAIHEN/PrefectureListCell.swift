@@ -5,19 +5,25 @@ struct PrefectureListCell: View {
 
     var body: some View {
         HStack {
-            Text(prefecture.name)
-            Spacer()
             Button(
                 action: {
                     prefecture.isFavorite.toggle()
                 },
                 label: {
-                    prefecture.isFavorite
-                    ? Image(systemName: "heart.fill")
-                    : Image(systemName: "heart")
+                    if prefecture.isFavorite {
+                        Image(systemName: "heart.fill")
+                            .foregroundStyle(.pink)
+                    } else {
+                        Image(systemName: "heart.fill")
+                            .foregroundStyle(.gray)
+                            .opacity(0.3)
+                    }
                 }
             )
-        }
+            .buttonStyle(.plain)
+            Text(prefecture.name)
+            Spacer()
+        } // HStack
     }
 }
 
