@@ -8,17 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		AC274CDE2B46F24100353B24 /* StateManagementTAIHENApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC274CDD2B46F24100353B24 /* StateManagementTAIHENApp.swift */; };
-		AC274CE02B46F24100353B24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC274CDF2B46F24100353B24 /* ContentView.swift */; };
 		AC274CE22B46F24600353B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC274CE12B46F24600353B24 /* Assets.xcassets */; };
 		AC274CE52B46F24600353B24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC274CE42B46F24600353B24 /* Preview Assets.xcassets */; };
 		AC274CEF2B46F24600353B24 /* StateManagementTAIHENTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC274CEE2B46F24600353B24 /* StateManagementTAIHENTests.swift */; };
 		AC274CF92B46F24600353B24 /* StateManagementTAIHENUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC274CF82B46F24600353B24 /* StateManagementTAIHENUITests.swift */; };
 		AC274CFB2B46F24600353B24 /* StateManagementTAIHENUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC274CFA2B46F24600353B24 /* StateManagementTAIHENUITestsLaunchTests.swift */; };
-		AC274D082B46F5A900353B24 /* Prefecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC274D072B46F5A900353B24 /* Prefecture.swift */; };
-		AC274D0A2B46F75400353B24 /* PrefectureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC274D092B46F75400353B24 /* PrefectureViewModel.swift */; };
 		AC274D0C2B46FB2800353B24 /* PrefecturesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC274D0B2B46FB2800353B24 /* PrefecturesListView.swift */; };
-		AC274D0E2B46FE3700353B24 /* PrefectureListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC274D0D2B46FE3700353B24 /* PrefectureListCell.swift */; };
-		AC274D102B4702A700353B24 /* PrefectureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC274D0F2B4702A700353B24 /* PrefectureView.swift */; };
+		AC274D4E2B4AF84E00353B24 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = AC274D4D2B4AF84E00353B24 /* ComposableArchitecture */; };
+		AC274D502B4AF8F700353B24 /* PrefectureFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC274D4F2B4AF8F700353B24 /* PrefectureFeature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +38,6 @@
 /* Begin PBXFileReference section */
 		AC274CDA2B46F24100353B24 /* StateManagementTAIHEN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StateManagementTAIHEN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC274CDD2B46F24100353B24 /* StateManagementTAIHENApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateManagementTAIHENApp.swift; sourceTree = "<group>"; };
-		AC274CDF2B46F24100353B24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC274CE12B46F24600353B24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC274CE42B46F24600353B24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC274CEA2B46F24600353B24 /* StateManagementTAIHENTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StateManagementTAIHENTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,11 +45,8 @@
 		AC274CF42B46F24600353B24 /* StateManagementTAIHENUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StateManagementTAIHENUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC274CF82B46F24600353B24 /* StateManagementTAIHENUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateManagementTAIHENUITests.swift; sourceTree = "<group>"; };
 		AC274CFA2B46F24600353B24 /* StateManagementTAIHENUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateManagementTAIHENUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		AC274D072B46F5A900353B24 /* Prefecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefecture.swift; sourceTree = "<group>"; };
-		AC274D092B46F75400353B24 /* PrefectureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefectureViewModel.swift; sourceTree = "<group>"; };
 		AC274D0B2B46FB2800353B24 /* PrefecturesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefecturesListView.swift; sourceTree = "<group>"; };
-		AC274D0D2B46FE3700353B24 /* PrefectureListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefectureListCell.swift; sourceTree = "<group>"; };
-		AC274D0F2B4702A700353B24 /* PrefectureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefectureView.swift; sourceTree = "<group>"; };
+		AC274D4F2B4AF8F700353B24 /* PrefectureFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefectureFeature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC274D4E2B4AF84E00353B24 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,12 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				AC274CDD2B46F24100353B24 /* StateManagementTAIHENApp.swift */,
-				AC274CDF2B46F24100353B24 /* ContentView.swift */,
-				AC274D072B46F5A900353B24 /* Prefecture.swift */,
-				AC274D092B46F75400353B24 /* PrefectureViewModel.swift */,
 				AC274D0B2B46FB2800353B24 /* PrefecturesListView.swift */,
-				AC274D0D2B46FE3700353B24 /* PrefectureListCell.swift */,
-				AC274D0F2B4702A700353B24 /* PrefectureView.swift */,
+				AC274D4F2B4AF8F700353B24 /* PrefectureFeature.swift */,
 				AC274CE12B46F24600353B24 /* Assets.xcassets */,
 				AC274CE32B46F24600353B24 /* Preview Content */,
 			);
@@ -158,6 +148,9 @@
 			dependencies = (
 			);
 			name = StateManagementTAIHEN;
+			packageProductDependencies = (
+				AC274D4D2B4AF84E00353B24 /* ComposableArchitecture */,
+			);
 			productName = StateManagementTAIHEN;
 			productReference = AC274CDA2B46F24100353B24 /* StateManagementTAIHEN.app */;
 			productType = "com.apple.product-type.application";
@@ -230,6 +223,9 @@
 				Base,
 			);
 			mainGroup = AC274CD12B46F24100353B24;
+			packageReferences = (
+				AC274D4C2B4AF84E00353B24 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = AC274CDB2B46F24100353B24 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -272,11 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC274D0E2B46FE3700353B24 /* PrefectureListCell.swift in Sources */,
-				AC274D102B4702A700353B24 /* PrefectureView.swift in Sources */,
-				AC274D082B46F5A900353B24 /* Prefecture.swift in Sources */,
-				AC274D0A2B46F75400353B24 /* PrefectureViewModel.swift in Sources */,
-				AC274CE02B46F24100353B24 /* ContentView.swift in Sources */,
+				AC274D502B4AF8F700353B24 /* PrefectureFeature.swift in Sources */,
 				AC274CDE2B46F24100353B24 /* StateManagementTAIHENApp.swift in Sources */,
 				AC274D0C2B46FB2800353B24 /* PrefecturesListView.swift in Sources */,
 			);
@@ -616,6 +608,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC274D4C2B4AF84E00353B24 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC274D4D2B4AF84E00353B24 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC274D4C2B4AF84E00353B24 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AC274CD22B46F24100353B24 /* Project object */;
 }
