@@ -36,6 +36,29 @@ struct PrefecturesListView: View {
                                         }
                                     )
                                     Spacer()
+                                    HStack {
+                                        Spacer()
+                                        Button(
+                                            action: {
+
+                                            },
+                                            label: {
+                                                Text("← 岩手県")
+                                                    .font(.largeTitle)
+                                            }
+                                        )
+                                        Spacer()
+                                        Button(
+                                            action: {
+
+                                            },
+                                            label: {
+                                                Text("秋田県 →")
+                                                    .font(.largeTitle)
+                                            }
+                                        )
+                                        Spacer()
+                                    } // HStack
                                 } // VStack
                             },
                             label: {
